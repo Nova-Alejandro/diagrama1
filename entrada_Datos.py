@@ -1,3 +1,4 @@
+#En esta parte definimos las 
 nombre = ""
 precio = -1
 cantidad = -1
@@ -22,8 +23,11 @@ while cantidad < 0:
             print("La cantidad no puede ser negativa")
     except:
         print("Ingresa solo números enteros")
+
+costo_total = precio * cantidad
     
 print("\nProducto registrado:")
 print("nombre:", nombre)
 print("precio", precio)
 print("Cantidad", cantidad)
+print(f"Costo total calculado ${costo_total}")  
